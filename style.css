@@ -1,0 +1,86 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    background:url(bgbody.jpg);
+    background-size: cover;
+    margin: 1%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* disposition page */
+
+.page{
+    display: flex;
+    height: 96vh;
+   
+}
+
+.player1-content-section{
+    width: 50vw;
+    background: white;
+}
+.player2-content-section{
+    width: 50vw;
+    background: white;
+   
+}
+
+
+/* disposition element page */
+
+
+#player-0, #player-1 {
+    
+    text-align: center;
+    margin-top: 10%;
+    font-weight: lighter;
+    font-size: 8rem;
+}
+.score{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 8rem;
+    font-weight: lighter;
+}
+.current-score{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+#new-game, #roll-dice, #hold{
+    position: absolute;
+}
+
+#new-game{
+    left: 48%;
+    top: 10%;
+}
+#roll-dice{
+    top: 75%;
+    left: 48%;
+}
+#hold{
+    top: 85%;
+    left: 49%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.opacity{
+    opacity: 0.2;
+}
+
+.image{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    z-index: 1;
+}
